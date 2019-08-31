@@ -1,0 +1,172 @@
+.logn_bg {
+	background-image: url("./img/bg.png");
+	background-size: cover;
+}
+
+.login_container {
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+.login-error, .validation-error {
+	display: none;
+	position: absolute;
+	background-color: red;
+	color: #FFF;
+	padding: 5px 50px;
+	border-radius: 10px;
+	top: 20px;
+	left: calc(100vw - 59%);
+}
+
+.login_wrapper {
+	margin-bottom: 30px;
+}
+
+.theme-login-tab, .theme-registration-tab {
+	padding: 5px;
+	font-weight: 600;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+.theme-login-tab.active, .theme-registration-tab.active {
+	border-bottom: 2px #17a2b8 solid;
+}
+
+.theme-login-form {
+	margin-top: 20px;
+}
+
+.theme-login-form .theme-user-name, .theme-login-form .theme-user-password
+	{
+	margin-bottom: 20px;
+}
+
+.theme-login-form .text, .theme-registration-forms .text,
+	.theme-edit-details-container .text {
+	width: 100px;
+	display: inline-block;
+}
+
+.theme-registration-forms .text, .theme-edit-details-container .text {
+	width: 150px;
+}
+
+.theme-login-form .input input, .theme-registration-forms .input input,
+	.theme-edit-details-container .input input {
+	width: 300px;
+	border: 0;
+	border-bottom: 1px solid #CCC;
+}
+
+.theme-login-form .input input:focus, .theme-registration-forms .input input:focus,
+	.theme-edit-details-container .input input:focus {
+	outline: 0;
+}
+
+.theme-login-form .theme-login-btn {
+	padding: 5px 20px;
+}
+
+.theme-registration-field-row {
+	margin-bottom: 15px;
+}
+
+.theme-edit-details-container {
+	margin-top: 50px;
+}
+
+.theme-details-container {
+	background-color: #FFF;
+	margin: 50px 0px;
+	border-radius: 10px;
+}
+
+.theme-data-row>span {
+	margin-right: 10px;
+}
+
+.theme-data-row>span.edit, .theme-data-row>span.delete {
+	cursor: pointer;
+}
+
+.details-error {
+	display: none;
+	position: absolute;
+	background-color: red;
+	color: #FFF;
+	padding: 5px 50px;
+	border-radius: 10px;
+	top: 9px;
+	left: calc(100vw - 66%);
+}
+
+.theme-details-heading {
+	background-color: #17a2b8;
+	margin-bottom: 30px;
+	color: #FFF;
+}
+
+.theme-details-container {
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+.id {
+	display: inline-block;
+	width: 100px;
+}
+
+.name {
+	display: inline-block;
+	width: 100px;
+}
+
+.email {
+	display: inline-block;
+	width: 140px;
+}
+
+.class {
+	display: inline-block;
+	width: 100px;
+}
+
+.year {
+	display: inline-block;
+	width: 100px;
+}
+
+.city {
+	display: inline-block;
+	width: 100px;
+}
+
+.country {
+	display: inline-block;
+	width: 100px;
+}
+
+.id_data {
+	margin-left: 0 !important;
+}
+
+.js-details-container span {
+	margin-left: 5px;
+}
+
+.edit, .delete {
+	background-color: #17a2b8;
+	padding: 5px 10px;
+	color: #FFF;
+	border-radius: 10px;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+.theme-details-update {
+	margin-right: 15px;
+}

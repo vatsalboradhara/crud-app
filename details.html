@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>My App</title>
+	<script src="./jquery/jquery.js"></script>
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.css" />
+	<link rel="stylesheet" href="./app/css/app.css" />
+	<script src="./bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+	<div class="container-fluid logn_bg" style="height: 100%;">
+		<div class="details-error">Error while updating details. Please try after sometime.</div>
+		<div class="row justify-content-md-center" style="height: 100%;">
+			<div class="col-10 theme-details-container">
+				<div class="row theme-details-heading">
+					<div class="col-12">
+						<span class="id">ID</span>
+						<span class="name">Name</span>
+						<span class="email">Email</span>
+						<span class="class">Class</span>
+						<span class="year">Year</span>
+						<span class="city">City</span>
+						<span class="country">Country</span>
+					</div>
+				</div>
+				<div class="js-details-container"></div>
+				<div class="row">
+					<div class="col-8 theme-edit-details-container" style="display: none;">
+						<div class="col-12 theme-registration-field-row">
+							<span class="text">Student ID</span>
+							<span class="input js-std-id"><input type="text"/></span>
+						</div>
+						<div class="col-12 theme-registration-field-row">
+							<span class="text">Student Name</span>
+							<span class="input js-std-name"><input type="text"/></span>
+						</div>
+						<div class="col-12 theme-registration-field-row">
+							<span class="text">Email</span>
+							<span class="input js-std-email"><input type="text"/></span>
+						</div>
+						<div class="col-12 theme-registration-field-row">
+							<span class="text">Class</span>
+							<span class="input js-std-class"><input type="text"/></span>
+						</div>
+						<div class="col-12 theme-registration-field-row">
+							<span class="text">Enrollment Year</span>
+							<span class="input js-std-enr-no"><input type="text"/></span>
+						</div>
+						<div class="col-12 theme-registration-field-row">
+							<span class="text">city</span>
+							<span class="input js-std-city"><input type="text"/></span>
+						</div>
+						<div class="col-12 theme-registration-field-row">							
+							<span class="text">Country</span>
+							<span class="input js-std-country"><input type="text"/></span>
+						</div>
+						<div class="col-12 theme-registration-field-row">
+							<button class="btn btn-info theme-details-update">Submit</button>
+							<button class="btn btn-info theme-details-clear">Clear</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./app/js/app.js"></script>
+	<script type="text/javascript">
+		showResults();
+	</script>
+</body>
+</html>

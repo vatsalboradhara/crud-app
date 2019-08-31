@@ -1,0 +1,77 @@
+<html>
+<head>
+	<title>My App</title>
+	<script src="./jquery/jquery.js"></script>
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.css" />
+	<link rel="stylesheet" href="./app/css/app.css" />
+	<script src="./bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+
+	<div class="container-fluid logn_bg" style="height: 100%;">
+		<div class="login-error">Error while login. Please try after sometime.</div>
+		<div class="validation-error" style="display: none;"></div>
+		<div class="row justify-content-md-center align-items-center" style="height: 100%;">
+			<div class="col-5 login_container">
+				<div class="row login_wrapper">
+					<div class="col-12">
+						<span class="theme-login-tab active">Login</span>
+						<span class="theme-registration-tab">Registration</span>
+					</div>
+				</div>
+				<div class="row js-login-form theme-login-form">
+					<div class="col-12 theme-user-name">
+						<span class="text">User Name</span>
+						<span class="input js-input-user-name" style="color:red;"><input type="text" name="name" />*</span>
+					</div>
+					<div class="col-12 theme-user-password">
+						<span class="text">Password</span>
+						<span class="input js-input-user-passwors" style="color:red;"><input type="password" name="password" />*</span>
+					</div>
+					<div class="col-12 theme-user-login">
+						<button  class="btn btn-info theme-login-btn">Login</button>
+					</div>
+				</div>
+				<div class="row js-registration-form theme-registration-forms" style="display: none;">
+					<div class="col-12 theme-registration-field-row">
+						<span class="text">Student ID</span>
+						<span class="input js-std-id" ><input type="text"/></span>
+					</div>
+					<div class="col-12 theme-registration-field-row">
+						<span class="text">Student Name</span>
+						<span class="input js-std-name" ><input type="text"/></span>
+					</div>
+					<div class="col-12 theme-registration-field-row">
+						<span class="text">Email</span>
+						<span class="input js-std-email" ><input type="text" required/></span>
+					</div>
+					<div class="col-12 theme-registration-field-row">
+						<span class="text">Password</span>
+						<span class="input js-std-password" ><input type="password"/></span>
+					</div>
+					<div class="col-12 theme-registration-field-row">
+						<span class="text">Class</span>
+						<span class="input js-std-class" ><input type="text"/></span>
+					</div>
+					<div class="col-12 theme-registration-field-row">
+						<span class="text">Enrollment Year</span>
+						<span class="input js-std-enr-no" ><input type="text"/></span>
+					</div>
+					<div class="col-12 theme-registration-field-row">
+						<span class="text">city</span>
+						<span class="input js-std-city"><input type="text"/></span>
+					</div>
+					<div class="col-12 theme-registration-field-row">							
+						<span class="text">Country</span>
+						<span class="input js-std-country" ><input type="text"/></span>
+					</div>
+					<div class="col-12 theme-registration-field-row">
+						<button type="Submit" class="btn btn-info theme-create-user">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./app/js/app.js"></script>
+</body>
+</html>
