@@ -1,5 +1,5 @@
 {
-    "name": "login-app",
+    "name": "crud-app",
     "version": "1.0.0",
     "private": true,
     "dependencies": {
@@ -7,7 +7,6 @@
         "fs-extra": "~8.1.0",
         "fs-sync": "~1.0.6",
         "mysql": "~2.17.1",
-        "serve-static": "~1.14.1",
-        "validate.js": "^0.13.1"
+        "serve-static": "~1.14.1"
     }
 }

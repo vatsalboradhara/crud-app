@@ -154,6 +154,10 @@
 	margin-left: 0 !important;
 }
 
+.js-details-container .row{
+    margin-bottom: 20px;
+}
+
 .js-details-container span {
 	margin-left: 5px;
 }
@@ -170,3 +174,4 @@
 .theme-details-update {
 	margin-right: 15px;
 }
+
