@@ -1,6 +1,7 @@
 var http = require('http'), fs = require('fs'), finalhandler = require('finalhandler'), serveStatic = require('serve-static'), serve = serveStatic("."), dbCall = require("./helpers/db-call.js");
 
 http.createServer(function(req, res) {
+	console.log(req,res);
 	try {
 		if (req.url.lastIndexOf("/userDetails") >= 0) {
 			dbCall.methods.getUserDetails(req, res);
